@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Responsive Forms</title>
+    <link rel="stylesheet" href="./bower_components/normalize-css/normalize.css">
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <section>
+      <form action="">
+        <div>
+          <label for="first-name">First Name</label><br>
+          <input type="text" id="first-name">
+        </div>
+        <div>
+          <label for="last-name">Last Name</label><br>
+          <input type="text" id="last-name">
+        </div>
+        <div>
+          <label for="email">email</label><br>
+          <input type="text" id="email">
+        </div>
+        <div>
+          <label for="country">Country</label><br>
+          <select id="country">
+            <option value="USA">USA</option>
+            <option value="Singapore">Singapore</option>
+            <option value="Austria">Austria</option>
+            <option value="England">England</option>
+          </select>
+        </div>
+        <div>
+          <label for="bio">bio</label><br>
+          <textarea id="bio" name="" cols="30" rows="12">I'm the bio man!
+          </textarea>
+        </div>
+    </section>
+    <section>
+      <div>
+        <label for="phone">phone</label><br>
+        <input type="text" id="phone">
+      </div>
+      <div>
+        <label for="aff">Affiliations</label><br>
+        <textarea id="aff" name="aff" cols="30" rows="10">I'm an affiliate!</textarea>
+      </div>
+      <div>
+        <label for="occupation">occupation</label><br><br>
+        <input type="radio" name="radiogroup" value="dev" checked>Software dev<br>
+        <input type="radio" name="radiogroup" value="jan">Janitor<br>
+        <input type="radio" name="radiogroup" value="dev">Pilot<br>
+      </div>
+      <div>
+        <label for="cat">cat's name</label><br>
+        <input type="text" id="cat" placeholder="Mira">
+      </div>
+      <div>
+        <label for="gadget">Favorite gadget</label><br>
+        <input type="text" id="gadget" placeholder="computer">
+      </div>
+    </section>
+    <section>
+      <div>
+        <label for="talent">talent</label><br>
+        <input type="text" id="talent" placeholder="coding">
+      </div>
+      <div>
+        <label for="drink">favorite drink</label><br>
+        <select id="drink" name="drink">
+          <option value="Beer">Beer</option>
+          <option value="Wine">Wine</option>
+          <option value="Whiskey">Whiskey</option>
+        </select>
+      </div>
+      <div>
+        <label for="power">special power</label><br>
+        <input type="text" id="power">
+      </div>
+      <div>
+        <label for="weapon">weapon of choice</label><br>
+        <input type="text" id="weapon">
+      </div>
+      <div>
+        <label for="comments">comments</label><br>
+        <textarea id="comments" name="comments" cols="30" rows="12">hella</textarea>
+      </div>
+      </form>
+    </section>
+  </body>
+</html>
