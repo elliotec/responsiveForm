@@ -4,6 +4,8 @@ body{
   text-transform: uppercase;
   font-weight: bold;
   font-family: 'Helvetica', 'Ubuntu', sans-serif;
+  float: none;
+  width: 100%;
 }
 
 div {
@@ -33,4 +35,8 @@ section{
 }
 select{
   width:99%;
+}
+.wrap {
+  width: 65%;
+ margin: 0 auto;
 }
